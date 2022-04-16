@@ -16,14 +16,16 @@ const Intro = () => {
                             <div className="i-title-item">UI/UX Designer</div>
                         </div>
                     </div>
-                    <div className="i-desc">
+                    <p className="i-desc">
                         I design and develop services for customers of all sizes, 
                         specializing in creating stylish, modern websites, web services,
                         and online stores.
-                    </div>
+                    </p>
                 </div>
+                
             </div>
             <div className="i-right">
+                <div className="i-bg"></div>
                 <img src={Me} alt="" className="i-img" />
             </div>
         </div>
